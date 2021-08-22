@@ -1,0 +1,48 @@
+
+/* Ensure the footer sticks to the bottom of the page but is not obscured by 
+text from the body: */
+body {
+	font-family: sans-serif;
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+	max-width: 90%;
+	margin: 0px 30px;
+	text-align: left;
+}
+
+footer {
+	margin-top: auto;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: solid;
+	border-color: grey;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+label {
+	line-height: 40px;
+
+.parent {
+	display: flex;
+	place-content: stretch space-evenly;
+	padding: 20px 0px;
+	background-color: #F5F5F5;
+}
+
+.cookie-notice {
+	max-width: 90%;
+	margin: 10px 30px;
+	padding: 2px 15px;
+	background-color: #FDF5E6;
+}
